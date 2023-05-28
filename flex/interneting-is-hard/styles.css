@@ -61,8 +61,27 @@
   align-self: flex-end;
   margin-bottom: 20px;
 }
-
-
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: pink;
+    height: 200px;
+    flex: 1;
+  }
+  .footer-three {
+    flex:2;
+    width:300px;
+  }
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
 
 
 
