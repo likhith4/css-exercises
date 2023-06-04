@@ -1,3 +1,51 @@
-.container{
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+ 
+.container > div:nth-child(1) {
+  background-color: #1d3557;
+  	
+}
+
+.container > div:nth-child(2) {
+  background-color: #e63946;
   
+ 
+}
+
+.container > div:nth-child(3) {
+  background-color: #1d3557;
+  
+ 
+}
+
+.container > div:nth-child(4) {
+  background-color: #e63946;
+  
+}
+.container>div{
+  flex:1;
+}
+html,body{
+  background-color: #a8dadc;
+
+}
+html, body {
+  background-color: #a8dadc;
+  margin: 10px;
+}
+/* styling here */
+.container{
+  display: flex;
+  border: solid red 1px;
+  
+}
+.container>div{
+  flex:2;
+}
+.container>.search{
+  flex:initial;
 }
